@@ -6,11 +6,11 @@
 #    By: ryusupov <ryusupov@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/10 15:17:30 by ryusupov          #+#    #+#              #
-#    Updated: 2025/03/10 15:17:37 by ryusupov         ###   ########.fr        #
+#    Updated: 2025/05/16 14:04:43 by ryusupov         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME    := span
+NAME    := mutantStack
 SRC     := main.cpp
 GPP     := g++
 CFLAGS  := -Wall -Wextra -Werror -std=c++17
