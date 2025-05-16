@@ -6,7 +6,7 @@
 /*   By: ryusupov <ryusupov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/05 17:45:49 by ryusupov          #+#    #+#             */
-/*   Updated: 2025/03/05 18:23:53 by ryusupov         ###   ########.fr       */
+/*   Updated: 2025/05/16 13:47:19 by ryusupov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ int Span::getItem(int i) const {
 	return this->vector[i];
 }
 
+//to find smallest difference between any two numbers
 unsigned int Span::shortestSpan() {
 	unsigned int	shortestOne;
 
@@ -76,6 +77,7 @@ unsigned int Span::shortestSpan() {
 	return shortestOne;
 }
 
+//to find longest difference between any two numbers
 unsigned int Span::longestSpan() {
 	unsigned int longestOne;
 
