@@ -6,7 +6,7 @@
 /*   By: ryusupov <ryusupov@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 14:58:10 by ryusupov          #+#    #+#             */
-/*   Updated: 2025/03/10 15:35:47 by ryusupov         ###   ########.fr       */
+/*   Updated: 2025/03/10 17:32:57 by ryusupov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,4 +34,3 @@ class MutantStack : public std::stack<T> {
 };
 
 #endif
-coc
